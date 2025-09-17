@@ -1,0 +1,86 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 600px;
+  z-index: 1;
+}
+
+.hero-content h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin: 1.5rem 0;
+  color: var(--second-text-color);
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: var(--main-color);
+  margin: 0 15px 15px 0;
+  transition: 0.3s ease;
+}
+
+.social-media a:hover {
+  background: var(--main-color);
+  color: var(--bg-color);
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--main-color);
+  border-radius: 40px;
+  font-size: 1rem;
+  color: var(--bg-color);
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  box-shadow: 0 0 20px var(--main-color);
+}
+
+/* Animasi Bentuk Geometris */
+.shapes div {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--main-color);
+  opacity: 0.2;
+}
+.shapes div:nth-child(1) { width: 80px; height: 80px; left: 10%; bottom: 20%; animation: move 10s linear infinite; }
+.shapes div:nth-child(2) { width: 100px; height: 100px; right: 10%; top: 15%; animation: move 12s linear infinite reverse; }
+.shapes div:nth-child(3) { width: 50px; height: 50px; right: 25%; bottom: 30%; animation: move 8s linear infinite; }
+.shapes div:nth-child(4) { width: 30px; height: 30px; left: 20%; top: 20%; animation: move 15s linear infinite reverse; }
+.shapes div:nth-child(5) { width: 60px; height: 60px; left: 50%; top: 50%; animation: move 9s linear infinite; }
+
+
+@keyframes move {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(100px, -100px) rotate(360deg); }
+}
