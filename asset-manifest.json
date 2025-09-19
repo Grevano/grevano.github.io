@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.7df4c7a6.css",
-    "main.js": "/static/js/main.4856f905.js",
+    "main.css": "/static/css/main.80c63cda.css",
+    "main.js": "/static/js/main.a3ddbf1f.js",
     "static/js/453.3ec7870f.chunk.js": "/static/js/453.3ec7870f.chunk.js",
-    "static/media/Untitled.jpeg": "/static/media/Untitled.5e6390272f5d953bc435.jpeg",
+    "static/media/flutter-ui-5.jpeg": "/static/media/flutter-ui-5.5fa88acc2089b12e64c0.jpeg",
+    "static/media/flutter-ui-4.jpeg": "/static/media/flutter-ui-4.746d995d40cb43df41ed.jpeg",
+    "static/media/flutter-ui-1.jpeg": "/static/media/flutter-ui-1.5e6390272f5d953bc435.jpeg",
+    "static/media/flutter-ui-6.jpeg": "/static/media/flutter-ui-6.58bdd369e138b9b1aec2.jpeg",
+    "static/media/flutter-ui-2.jpeg": "/static/media/flutter-ui-2.b43f19126221eafd07eb.jpeg",
+    "static/media/flutter-ui-3.jpeg": "/static/media/flutter-ui-3.93c5fdfa0b19b763285b.jpeg",
     "index.html": "/index.html",
-    "main.7df4c7a6.css.map": "/static/css/main.7df4c7a6.css.map",
-    "main.4856f905.js.map": "/static/js/main.4856f905.js.map",
+    "main.80c63cda.css.map": "/static/css/main.80c63cda.css.map",
+    "main.a3ddbf1f.js.map": "/static/js/main.a3ddbf1f.js.map",
     "453.3ec7870f.chunk.js.map": "/static/js/453.3ec7870f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7df4c7a6.css",
-    "static/js/main.4856f905.js"
+    "static/css/main.80c63cda.css",
+    "static/js/main.a3ddbf1f.js"
   ]
 }
